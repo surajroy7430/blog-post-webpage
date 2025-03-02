@@ -43,6 +43,7 @@ section {
 section h3 {
     font-size: 30px;
     padding-bottom: 16px;
+    text-align: center;
 }
 #home #content {
     border: 1px solid rgb(134, 134, 134);
@@ -88,8 +89,13 @@ section h3 {
     padding-bottom: 45px;
 }
 
+#about div, #contact form {
+    width: 70%;
+    margin: 0 auto;
+}
 #about p {
     line-height: 1.3;
+    font-size: 18px;
     text-align: justify;
 }
 .aboutTag {
@@ -98,18 +104,26 @@ section h3 {
 #contact div label {
     display: block;
     margin: 7px 0;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 #contact div input, textarea {
     display: block;
     margin: 7px 0;
     margin-bottom: 15px;
     padding: 5px;
+    width: 100%;
 }
 
 #contact #message {
     margin-bottom: 25px;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+}
+ 
 button {
     border: none;
     border-radius: 10px;
@@ -117,6 +131,9 @@ button {
     padding: 10px 24px;
     font-size: 16px;
     cursor: pointer;
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 button:hover {
     scale: 1.02;
